@@ -8,7 +8,8 @@ body {
 
 .title{
     text-align: center;
-    color: #333;
+    color: #000000;
+    font-size:40px;
 }
 
 .questions {
@@ -21,11 +22,14 @@ body {
 
 .questions button {
     background-color: rgb(255, 242, 224);
-    border:none;
+    border-style:solid;
+    border-color:black;
+    border-width: 5px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size:30px;
+    font-size:35px;
     margin-left:300px;
 }
 
@@ -35,7 +39,7 @@ body {
 }
 
 .result {
-    background-color: #e2e2e2;
+    background-color: white;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
@@ -45,4 +49,13 @@ body {
 
 .hidden {
     display: none;
+}
+
+.start{
+    height:70px;
+    border-style:solid;
+    border-color:black;
+    border-width: 5px;
+    border-radius: 20px;
+    font-size:50px;
 }
